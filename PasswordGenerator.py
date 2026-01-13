@@ -27,8 +27,6 @@ for i in range(no_of_symbols):
 for i in range(no_of_digits):
     password += random.choice(numbers)
 
-
-# easy version
 print(f"Your generated password is: {password}")
 """
 
@@ -38,8 +36,12 @@ password_list = []
 # adding letter in password
 for i in range(no_of_letters):
     password_list.append(random.choice(letter))
+
+# adding symbols in password
 for i in range(no_of_symbols):
     password_list.append(random.choice(symbol))
+
+# adding numbers in password
 for i in range(no_of_digits):
     password_list.append(random.choice(numbers))
 
@@ -50,4 +52,5 @@ password = ""
 for char in password_list:
     password += char
 
-print("You password is: "+ password)
+
+print("Your generated password is: "+ password)
