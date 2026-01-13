@@ -31,7 +31,7 @@ A simple Python program that generates a random and secure password based on use
 
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/password-generator-python.git
+git clone https://github.com/CodeCraftsmanRajesh/password-generator-python.git
 ```
 
 Navigate to the project directory:
